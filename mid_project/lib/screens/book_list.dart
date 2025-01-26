@@ -10,7 +10,7 @@ class BookList extends StatelessWidget {
       home: Scaffold(
         appBar: AppBar(
           title: const Text('Bookstore'),
-          backgroundColor: Colors.blueGrey,
+          backgroundColor: const Color.fromRGBO(96, 125, 139, 1),
         ),
         body: SafeArea(
             child: ListView(
